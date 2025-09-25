@@ -17,5 +17,4 @@ This repo is meant for:
 
 ---
 
-If you want, I can also draft a **shorter version** that’s perfect for the “Description” field on GitHub, while keeping the detailed one for the README. Do you want me to do that?
 
