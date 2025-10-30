@@ -20,6 +20,7 @@ int main()
         10.992,
         11.332,
     };
+
     std::optional<size_t>
         result = binary_Search(v, 123);
     print_result(result);
@@ -34,11 +35,7 @@ int main()
 template <typename T, typename V>
 std::optional<size_t> binary_Search(const T &t, const V target)
 {
-    size_t length = 0;
-    for (auto var : t)
-    {
-        length += 1;
-    }
+    size_t length = std::size(t);
     size_t low_Index = 0;
     size_t high_Index = length - 1;
     while (low_Index <= high_Index)
